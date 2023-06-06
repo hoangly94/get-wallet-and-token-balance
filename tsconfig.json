@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "paths": {
+      "@/services/*": [
+        "./src/services/*.service.ts"
+      ],
+      "@/types/*": [
+        "./src/types/*.types.ts"
+      ],
+      "@/contracts/*": [
+        "./src/contracts/*.contract.ts"
+      ],
+      "@/helpers/*": [
+        "./src/helpers/*.helpers.ts"
+      ]
+    },
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
